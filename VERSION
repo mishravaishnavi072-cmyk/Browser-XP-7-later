@@ -1,0 +1,16 @@
+# Horizon version pin — edit on every rebase.
+# Consumers: scripts/sync-supermium.ps1 and release notes.
+
+PRODUCT_NAME=Horizon
+PRODUCT_VERSION=0.1.0
+CHANNEL=stable
+
+# Upstream Win7-compatible Chromium fork
+SUPERMIUM_REPO=https://github.com/win32ss/supermium.git
+# Pin to a released tag before building Stable. Example reflects a recent public line;
+# verify the tag still exists and update after smoke-test.
+SUPERMIUM_REF=v150-r2.02
+CHROMIUM_VERSION_LABEL=150.0.7871.255
+
+# Optional: human notes for this pin
+PIN_NOTES=Initial Horizon control-plane pin. Confirm tag on Supermium releases before first binary build.

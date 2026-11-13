@@ -1,0 +1,13 @@
+From: Horizon Overlay <horizon@localhost>
+Subject: [PATCH] policy: prefer DuckDuckGo as default search (template)
+
+NOTE: Template only. Regenerate against the pinned Supermium tree.
+Supermium may already include ungoogled-chromium-style search engine
+entries; align with third_party/search_engine_data for your pin.
+
+Typical touchpoints:
+  components/search_engines/prepopulated_engines.json
+  chrome/browser/search_engines/
+
+---
+# Intentionally empty hunk body — see 0001 note and apply-branding.ps1.
