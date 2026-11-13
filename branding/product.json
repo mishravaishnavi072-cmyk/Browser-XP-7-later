@@ -1,0 +1,16 @@
+{
+  "productName": "Horizon",
+  "shortName": "Horizon",
+  "companyName": "Horizon Project",
+  "copyright": "Copyright $YEAR Horizon Project contributors",
+  "appUserModelId": "Horizon.Browser",
+  "userDataDirName": "Horizon",
+  "executableBaseName": "horizon",
+  "chromiumInternNameHint": "Chrome",
+  "defaultSearchName": "DuckDuckGo",
+  "defaultSearchUrl": "https://duckduckgo.com/?q={searchTerms}",
+  "homePage": "about:blank",
+  "updateUrlPlaceholder": "https://example.com/horizon/update",
+  "helpUrl": "https://github.com/mishravaishnavi072-cmyk/Browser-XP-7-later",
+  "aboutBlurb": "Horizon is a Chromium-based browser for Windows 7 SP1 and later."
+}

@@ -1,0 +1,17 @@
+From: Horizon Overlay <horizon@localhost>
+Subject: [PATCH] branding: replace Chromium product name strings with Horizon
+
+NOTE: This is a template patch. Paths and contexts drift between Chromium
+majors. On first sync of SUPERMIUM_REF, prefer scripts/apply-branding.ps1,
+then regenerate a real unified diff from your tree and replace this file.
+
+For maintainers regenerating this patch, typical touchpoints include:
+  chrome/app/chromium_strings.grd
+  chrome/app/theme/chromium/BRANDING
+  chrome/installer/util/util_constants.cc (product names, if present)
+
+---
+# Intentionally empty hunk body — use apply-branding.ps1 until regenerated.
+# git apply will skip with a clear error if someone tries this file alone;
+# apply-patches.ps1 treats missing-hunk templates as soft-skip when
+# HORIZON_ALLOW_TEMPLATE_PATCHES=1 (default).

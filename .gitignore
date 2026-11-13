@@ -1,0 +1,27 @@
+# Local Chromium / build artifacts (never commit the browser tree here)
+src/
+out/
+.gclient
+.gclient_entries
+.cipd/
+depot_tools/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+*.user
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Release drop folder
+dist/
+artifacts/
+*.7z
+*.zip
+!docs/**/*.md

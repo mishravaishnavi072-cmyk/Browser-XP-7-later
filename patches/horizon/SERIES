@@ -1,0 +1,5 @@
+# Ordered list of patches applied by scripts/apply-patches.ps1
+# One filename per line. Lines starting with # are ignored.
+
+0001-branding-strings.patch
+0002-default-search-duckduckgo.patch
